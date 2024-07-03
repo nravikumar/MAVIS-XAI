@@ -1,2 +1,2 @@
 # MAVIS-XAI
-Framework for XAI benchmarks and best practices protocol
+XAI benchmarks and framework for XAI selection and best practices protocol
