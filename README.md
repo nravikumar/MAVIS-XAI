@@ -51,7 +51,8 @@ Integrated Gradients is a technique that attributes the prediction of a deep net
 #### Saliency Maps
 Saliency Maps highlight the parts of an image that are most important for the model's prediction. They are created by computing the gradient of the output with respect to the input image.
 ### Usage
-// to be filled in
+In the repository there is a python notebook file that you can run on your preferred development environment, and a specific weights.h5 file.
+In the notebook file there's a specific line commented out, this is for you to train the model from scratch and tinker with hyperparamenters. Otherwise, if left as it is, you can easily load the weights of the model that was trained previously, and see all the results and explanations.
 ### Requirements
 + Tensorflow 2.17.0
 + Keras 3.4.1
