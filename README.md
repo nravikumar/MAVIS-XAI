@@ -58,3 +58,4 @@ In the notebook file there's a specific line commented out, this is for you to t
 + Keras 3.4.1
 + Numpy 1.26.4
 + Pandas 2.2.2
++ Matplotlib 3.9.1
