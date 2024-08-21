@@ -34,7 +34,7 @@ The model is trained on a subset of the Tiny ImageNet dataset. The dataset is lo
 + Batch size: 128
 + Label mode: Categorical
   
-To download the dataset use this link: https://www.image-net.org/index.php and register on the website. We've used the Tiny Imagenet dataset for simplicity, but using larger and more detailed images, would probably increase the accuracy of the model, but increase training time.
+To download the dataset use this link: https://www.image-net.org/index.php and register on the website. We've used the Tiny Imagenet dataset for simplicity, using larger and more detailed images would probably increase the accuracy of the model, but increase training time.
 ### Training 
 The model is trained using the following settings:
 + Epochs: 300
