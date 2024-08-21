@@ -41,6 +41,7 @@ The model was trained using the following settings:
 + Validation data: Separate validation set
 + Callbacks: ModelCheckpoint to save the best model based on validation loss
 Training progress is visualized using matplotlib to plot accuracy and loss curves.
+To train the model just download the saved weights and the tiny imagenet dataset, a function was used to reorganise the tiny imagenet validation dataset directory to allow for easier training.
 ### Explainable AI Techniques
 To understand how the model makes decisions, we've implemented several explainable AI techniques. This will help understand which technique is best for explaining this model's predictions on this dataset.
 #### Grad-Cam
