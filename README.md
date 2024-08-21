@@ -36,8 +36,8 @@ The model is trained on a subset of the Tiny ImageNet dataset. The dataset is lo
   
 To download the dataset use this link: https://www.image-net.org/index.php and register on the website. We've used the Tiny Imagenet dataset for simplicity, using larger and more detailed images would probably increase the accuracy of the model, but increase training time.
 ### Training 
-The model is trained using the following settings:
-+ Epochs: 300
+The model was trained using the following settings:
++ Epochs: 1000
 + Validation data: Separate validation set
 + Callbacks: ModelCheckpoint to save the best model based on validation loss
 Training progress is visualized using matplotlib to plot accuracy and loss curves.
