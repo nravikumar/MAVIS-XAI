@@ -5,8 +5,9 @@ XAI benchmarks and framework for XAI selection and best practices protocol
 This repository contains an image classification model implemented using TensorFlow and Keras API's, along with various explainable AI techniques to visualize and understand the model's decision-making process.
 ### Table of Contents
 
-1. Model Architecture
-2. Dataset
+
+1. [Model Architecture](#model-architecture)
+2. [Dataset](#dataset)
 3. Training
 4. Explainable AI Techniques
     - Grad-CAM
@@ -53,6 +54,7 @@ Integrated Gradients is a technique that attributes the prediction of a deep net
 #### Saliency Maps
 Saliency Maps highlight the parts of an image that are most important for the model's prediction. They are created by computing the gradient of the output with respect to the input image.
 ### Usage
+
 1. Download the Model's weights "tiny_imagenet_model.checkpoint.weights.h5".
 2. Open the notebook file "fullModelAndExplanations.ipynb" using your favourite IDE.
 3. Open the link to the dataset and request access to the imagenet libray.
