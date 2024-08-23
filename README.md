@@ -58,7 +58,7 @@ Saliency Maps highlight the parts of an image that are most important for the mo
 3. Open the link to the dataset and request access to the imagenet libray.
 4. Download the tiny imagenet dataset.
 5. Decide if you'll use the previously trained model (skip to bullet point 12) or retrain the model from scratch 
-6. Decide how many classes to use in the classification, we used 5 but there are 200 classes to choose from.
+6. Decide how many classes to use in the classification, we used 5 (n01443537, n01629819, n01644900, n01770393, n01855672) but there are 200 classes to choose from.
 7. Use the "reorganiseValidation.py" script to order all of the validation images in a directory where all the validation images from the same class are in the same directory.
 8. Now you can follow the notebook instructions, but the following will explain what you'll do.
 9. Download the necessary libraries.
