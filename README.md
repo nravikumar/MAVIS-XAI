@@ -8,7 +8,7 @@ This repository contains an image classification model implemented using TensorF
 
 1. [Model Architecture](#model-architecture)
 2. [Dataset](#dataset)
-3. Training
+3. [Training](#Training)
 4. Explainable AI Techniques
     - Grad-CAM
     - Grad-CAM++
