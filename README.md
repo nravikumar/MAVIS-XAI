@@ -9,13 +9,13 @@ This repository contains an image classification model implemented using TensorF
 1. [Model Architecture](#model-architecture)
 2. [Dataset](#dataset)
 3. [Training](#Training)
-4. Explainable AI Techniques
+4. [Explainable AI Techniques](#Explainable-AI-Techniques)
     - Grad-CAM
     - Grad-CAM++
     - Integrated Gradients
     - Saliency Maps
-5. Usage
-6. Requirements
+5. [Usage](#Usage)
+6. [Requirements](#Requirements)
 
 ### Model Architecture
 The model is a Convolutional Neural Network (CNN) designed for image classification. It consists of multiple convolutional layers, batch normalization, max pooling, and dropout layers, followed by dense layers for classification. The architecture is as follows:
