@@ -53,8 +53,22 @@ Integrated Gradients is a technique that attributes the prediction of a deep net
 #### Saliency Maps
 Saliency Maps highlight the parts of an image that are most important for the model's prediction. They are created by computing the gradient of the output with respect to the input image.
 ### Usage
-In the repository there is a python notebook file that you can run on your preferred development environment, and a specific weights.h5 file.
-In the notebook file there's a specific line commented out, this is for you to train the model from scratch and tinker with hyperparamenters. Otherwise, if left as it is, you can easily load the weights of the model that was trained previously, and see all the results and explanations.
+1. Download the Model's weights "tiny_imagenet_model.checkpoint.weights.h5".
+2. Open the notebook file "fullModelAndExplanations.ipynb" using your favourite IDE.
+3. Open the link to the dataset and request access to the imagenet libray.
+4. Download the tiny imagenet dataset.
+5. Decide if you'll use the previously trained model (skip to bullet point 12) or retrain the model from scratch 
+6. Decide how many classes to use in the classification, we used 5 but there are 200 classes to choose from.
+7. Use the "reorganiseValidation.py" script to order all of the validation images in a directory where all the validation images from the same class are in the same directory.
+8. Now you can follow the notebook instructions, but the following will explain what you'll do.
+9. Download the necessary libraries.
+10. Retrain the model with the newly organised validation set.
+11. Show the history of the training using pandas.
+12. Load the model if not trained from scratch, to load the model you'll need to create the model architecure so make sure to run that cell first.
+13. Show predicted class of a specific image chosen and confidence value
+14. Show Grad-Cam and Grad-Cam implementations and results
+15. Show Integrated Gradients implementations and results
+16. Show Saliency maps implementations and results
 ### Requirements
 + Tensorflow 2.17.0
 + Keras 3.4.1
