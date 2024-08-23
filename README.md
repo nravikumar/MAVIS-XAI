@@ -10,10 +10,10 @@ This repository contains an image classification model implemented using TensorF
 2. [Dataset](#dataset)
 3. [Training](#Training)
 4. [Explainable AI Techniques](#Explainable-AI-Techniques)
-    - Grad-CAM
-    - Grad-CAM++
-    - Integrated Gradients
-    - Saliency Maps
+    - [Grad-CAM](#Grad-CAM)
+    - [Grad-CAM++](#Grad-CAM++)
+    - [Integrated Gradients](#Integrated-Gradients)
+    - [Saliency Maps](#Saliency-Maps)
 5. [Usage](#Usage)
 6. [Requirements](#Requirements)
 
